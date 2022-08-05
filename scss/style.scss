@@ -1,1 +1,22 @@
 @import "_reset.scss";
+body {
+   background-color: rgb(97, 97, 97);
+}
+
+h1 {
+   font-size: 36px;
+   color: aliceblue;
+   text-align: center;
+   padding: 10px 0 30px 0;
+}
+.grid_item {
+   text-align: center;
+   border: 1px dashed hsl(0, 100%, 100%);
+   padding: 30px;
+   color: rgb(255, 255, 255);
+}
+.grid_body {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+}
